@@ -36,6 +36,11 @@ input {
    margin-bottom: 20px;
 }
 
+input{
+    padding-left: 20px;
+    font-size: medium;
+}
+
 .icono{
     font-size: 25px;
     text-align: center;
@@ -216,7 +221,8 @@ section a:hover:not(.active) {
 /* footer */
 
 footer {
-    background-color: #6a221ebe;
+    /* background-color: #6a221ebe; */
+    background-color: #6a221ead;
     grid-area: footer;
     height: 150px;
     display: flex;
@@ -317,7 +323,7 @@ footer a {
 
     .historia {
         background-image: none;
-        background-color: #7d312d81;
+        background: linear-gradient(#ececec, #875554);
     }
 
     aside img {
@@ -332,7 +338,12 @@ footer a {
     aside ul {
         display: flex;
         flex-direction: column;
-        color: whitesmoke;
+        color: black;
+    }
+
+    aside a {
+        text-decoration: none;
+        color: black;
     }
 }
 
