@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Lemonada";
   font-size: 22px;
+  zoom: 80%;
 }
 
 .contenedor {
@@ -225,12 +226,12 @@ footer {
 .titulos {
   font-weight: bold;
   text-align: center;
-  font-size: medium;
+  font-size: 11px;
   margin-bottom: 2px;
 }
 
 .info {
-  font-size: 13px;
+  font-size: 10px;
   margin-top: 2px;
   margin-bottom: 2px;
   text-align: center;
@@ -249,7 +250,7 @@ hr {
 }
 
 .sello p {
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 600;
     padding-bottom: 2px;
     margin-bottom: 5px;
@@ -271,7 +272,7 @@ footer a {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 0.8em;
   color: black;
   opacity: 0.7;
 }
@@ -351,6 +352,23 @@ footer a {
     text-decoration: none;
     color: black;
   }
+
+  footer a {
+    font-size: 1.3rem;
+  }
+
+  .titulos {
+    font-size: medium;
+  }
+
+  .info {
+    font-size: 13px;
+  }
+
+  .sello p {
+    font-size: 14px;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -366,7 +384,7 @@ footer a {
   }
 
   .cartas {
-    width: 18rem;
+    width: 13.5em;
   }
 
   .grande {
