@@ -47,7 +47,6 @@ input {
 /* header */
 
 .historia {
-    /* background-image:  url(../Images/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg); */
     background-image: url(../Images/nathan-dumlao-2z3MOB3kfJU-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -149,6 +148,15 @@ main {
     height: 580.2px;
 }
 
+.cartas {
+    transition: all 01s;
+}
+
+.cartas:hover {
+    transform: scale(1.05);
+    filter: grayscale(60%);
+}
+
 .cardimg {
     width: 100%;
     overflow: hidden;
@@ -203,6 +211,7 @@ section a:hover:not(.active) {
     color: whitesmoke;
     background-color: #841b15c7;
 }
+
 
 /* footer */
 
