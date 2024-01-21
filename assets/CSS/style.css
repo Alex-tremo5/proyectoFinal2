@@ -146,17 +146,20 @@ main {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 30px;
+    height: 580.2px;
 }
 
 .cardimg {
     width: 100%;
     overflow: hidden;
     border-radius: 5px 5px 0px 0px;
+    height: 50%;
     
 }
 
-.card p {
-    font-size: 9px;
+.cartas p {
+    font-size: 15px;
+    text-align: center;
 }
 
 main button {
@@ -179,7 +182,7 @@ section {
     justify-content: center;
     text-align: center;
     padding: 20px 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
    
 }
 
@@ -208,6 +211,8 @@ footer {
     grid-area: footer;
     height: 150px;
     display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 .titulos { 
@@ -218,7 +223,7 @@ footer {
 }
 
 .info {
-    font-size: small;
+    font-size: 13px;
     margin-top: 2px;
     margin-bottom: 2px;
     text-align: center;
@@ -226,6 +231,7 @@ footer {
 
 hr {
     border-top: 1px solid rgb(0, 0, 0);
+    margin: 0;
 }
 
 .left {
@@ -238,14 +244,14 @@ hr {
     margin-right: 5px;
 }
 
-footer .redes {
+footer a {
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 1.3em;
+    color: black;
 }
 
-
-/* copia y pega bro */
 
 @media (min-width: 576px) {
     .contenedor {
@@ -255,8 +261,8 @@ footer .redes {
         "aside section"
         "footer footer";
 
-    grid-template-columns: 2.3fr 5fr;
-    grid-template-rows: auto 6fr auto;
+    grid-template-columns: 13rem 5fr;
+    grid-template-rows: auto 5fr auto auto;
     }
 
     main {
@@ -274,21 +280,13 @@ footer .redes {
         align-items: start;
     }
 
-    aside ul{
-        color: whitesmoke;
-    }
-
     .peque {
         display: none;
     }
 
     .grande {
         display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        max-width: 100%;
+        width: 70%;
     }
 
     .intro {
@@ -299,7 +297,6 @@ footer .redes {
         width: 18rem;
         margin: 0px 33px;
         margin-bottom: 30px;
-        height: 580.2px;
     }
 
     aside {
@@ -326,10 +323,7 @@ footer .redes {
     aside ul {
         display: flex;
         flex-direction: column;
-    }
-
-    footer {
-        font-size: 11px;
+        color: whitesmoke;
     }
 }
 
@@ -339,11 +333,15 @@ footer .redes {
         grid-template-areas:
         "aside nav"
         "aside main"
-        "footer main"
-        "footer section";
+        "aside section"
+        "footer footer";
 
     grid-template-columns: 15rem 5fr;
     grid-template-rows: auto 5fr auto auto;
+    }
+
+    .grande {
+        width: 80%;
     }
 
 
